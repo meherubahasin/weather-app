@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Weather App</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+
+      <div class="card">
+
+        <div class="search">
+          <input type="text" class="search-bar" placeholder="What's the name of your city?">
+          <button><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="weather loading">
+          <h2 class="city">Dhaka <i class="fas fa-map-marker-alt"></i></h2>
+          <h1 class="temp">35°C</h1>
+          <span class="date">2/9/20, </span><span class="time">15:34</span>
+
+          <div class="flex">
+            <img src="https://openweathermap.org/img/wn/04n.png" class="icon" />
+            <div class="description">Cloudy</div>
+          </div>
+
+          <div class="humidity">Humidity: 60%</div>
+          <div class="wind">Wind speed: 6.2 km/h</div>
+        </div>
+
+      </div>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
